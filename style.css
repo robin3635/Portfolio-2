@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+header nav {
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 10px #e3dddd;
+  background-color: #fff8f8;
+  position: fixed;
+}
+header nav .logo {
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #000000;
+}
+header nav .logo span {
+  color: #ff5252;
+}
+header nav .navlist {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+header nav .navlist li .nav-items {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.15em;
+  transition: 0.2s ease;
+}
+header nav .navlist li .nav-items:hover {
+  color: #ab9898;
+}
+header nav .navlist li .nav-items .close {
+  font-size: 1.2em;
+  margin-top: 100px;
+  display: none;
+}
+header nav .navlist li .btn {
+  padding: 15px 10px;
+  border-radius: 0.3em;
+  background-color: #ff5252;
+  color: #fff;
+  transition: 0.2s ease;
+}
+header nav .navlist li .btn:hover {
+  color: #fff;
+  background-color: #c5afaf;
+}
+header nav .menu {
+  display: none;
+}
+header nav .menu i {
+  font-size: 1.2em;
+  color: #000000;
+}
+
+main .hero {
+  width: 100%;
+  height: 100vh;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .hero .hero-content {
+  width: 70%;
+  height: auto;
+}
+main .hero .hero-content h5 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  color: #ff5252;
+}
+main .hero .hero-content h1 {
+  font-size: 3.6em;
+  padding-bottom: 20px;
+}
+main .hero .hero-content p {
+  font-size: 1.05em;
+  color: #4d4545;
+}
+main .hero .hero-content .hero-btn {
+  margin-top: 50px;
+}
+main .hero .hero-content .hero-btn .le_more {
+  text-decoration: none;
+  border: 1px solid #ff5252;
+  border-radius: 0.3em;
+  margin-right: 20px;
+  padding: 15px 30px;
+  background-color: #ff5252;
+  color: #fff;
+  transition: 0.2s ease;
+}
+main .hero .hero-content .hero-btn .le_more:hover {
+  background-color: #ea7e7e;
+}
+main .hero .hero-content .hero-btn .see_work {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+main .hero .hero-content .hero-btn .see_work i {
+  padding-left: 10px;
+}
+main .hero .hero-content .hero-btn .see_work:hover {
+  color: #ff5252;
+}
+main #services {
+  margin: 20px 0;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+main #services h5 {
+  font-size: 1.5em;
+  color: #ff5252;
+  padding-bottom: 20px;
+}
+main #services h2 {
+  font-size: 3em;
+  font-weight: 600;
+}
+main #services .services_container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main #services .services_container .box {
+  margin: 20px 0;
+  padding: 40px 25px;
+  width: 30%;
+  border-radius: 0.3em;
+  text-align: center;
+  box-shadow: 2px 2px 25px #e3dddd;
+  transition: 0.2s ease;
+}
+main #services .services_container .box:hover {
+  box-shadow: 2px 2px 35px #c5bdbd;
+}
+main #services .services_container .box i {
+  font-size: 1.5em;
+  padding: 15px;
+  background-color: #ff5252;
+  color: #fff;
+  border-radius: 0.3em;
+  margin-bottom: 20px;
+}
+main #services .services_container .box h5 {
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+main #services .services_container .box p {
+  font-size: 1.05em;
+  color: #4d4545;
+}
+main #project {
+  margin: 20px 0;
+  padding: 100px 80px;
+  background-color: #fff8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+main #project h5 {
+  font-size: 1.5em;
+  color: #ff5252;
+  padding-bottom: 20px;
+}
+main #project h2 {
+  font-size: 3em;
+  font-weight: 600;
+}
+main #project .pro_demo {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+main #project .pro_demo .pro-img {
+  width: 45%;
+  box-shadow: 0px 0px 20px #e3dddd;
+}
+main #project .pro_demo .pro-img img {
+  width: 100%;
+  border-radius: 0.3em;
+}
+main #pricing {
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+main #pricing h5 {
+  font-size: 1.5em;
+  color: #ff5252;
+  padding-bottom: 20px;
+}
+main #pricing h2 {
+  font-size: 3em;
+  font-weight: 600;
+}
+main #pricing .price_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main #pricing .price_container .price {
+  width: 30%;
+  padding: 30px;
+  box-shadow: 0px 0px 25px #e3dddd;
+  transition: 0.2s ease;
+}
+main #pricing .price_container .price:hover {
+  box-shadow: 0px 0px 35px #e3dddd;
+}
+main #pricing .price_container .price p {
+  font-size: 1.05em;
+  color: #4d4545;
+  padding-bottom: 20px;
+}
+main #pricing .price_container .price h3 {
+  font-size: 2.5em;
+  color: #ff5252;
+  font-weight: 600;
+  border-bottom: 1px solid #595555;
+  padding-bottom: 20px;
+}
+main #pricing .price_container .price .support {
+  margin-top: 10px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+main #pricing .price_container .price .support li {
+  line-height: 2.2em;
+  color: #4d4545;
+}
+main #pricing .price_container .price .support li i {
+  color: #ff5252;
+  padding-right: 10px;
+}
+main #pricing .price_container .price button {
+  padding: 15px 30px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #ff5252;
+  border: none;
+  border-radius: 0.3em;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main #pricing .price_container .price button:hover {
+  background-color: #ca4f4f;
+}
+main #pricing .price_container .price_programming {
+  background-color: #333333;
+}
+main #pricing .price_container .price_programming h5 {
+  color: #fff;
+}
+main #pricing .price_container .price_programming p {
+  color: #fff;
+}
+main #pricing .price_container .price_programming .support li {
+  color: #fff;
+}
+
+footer {
+  background-color: #fff8f8;
+}
+footer #contact {
+  margin-top: 50px;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+footer #contact h5 {
+  font-size: 2.2em;
+  color: #ff5252;
+  padding-bottom: 20px;
+}
+footer #contact span {
+  font-size: 1em;
+  padding-bottom: 5px;
+}
+footer #contact .socal_link a {
+  text-decoration: none;
+}
+footer #contact .socal_link a i {
+  font-size: 1.5em;
+  padding: 10px;
+  color: #000000;
+}
+footer .copyright {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+footer .copyright span {
+  color: #4d4545;
+  font-weight: 600;
+  line-height: 1.5;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,323 @@
+@media (max-width:992px) {
+    header nav .navlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: #fff8f8;
+        transition: 0.3s;
+    }
+
+    header nav .navlist.toggle {
+        right: 0;
+    }
+
+    header nav .navlist li .nav-items .close {
+        display: block;
+    }
+
+    header nav .menu {
+        display: block;
+    }
+
+    main .hero .hero-content {
+        width: 80%;
+        height: auto;
+    }
+
+    main #pricing .price_container .price {
+        padding: 20px;
+    }
+
+    main #pricing .price_container .price h3 {
+        font-size: 2.3em;
+    }
+
+    main #pricing .price_container .price .support li {
+        line-height: 1.8em;
+    }
+
+}
+
+@media (max-width:820px) {
+    main .hero .hero-content {
+        width: 90%;
+    }
+    main #services .services_container {
+        margin-top : 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    main #services .services_container .box i {
+        font-size: 1.3em;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    main #services .services_container .box {
+        width: 35%;
+        margin-top: 0px;
+        padding: 30px 15px;
+    }
+
+    main #pricing .price_container {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    main #pricing .price_container .price {
+        width: 45%;
+        padding: 20px;
+
+        box-shadow: 0px 0px 25px #e3dddd;
+        transition: 0.2s ease;
+    }
+}
+
+
+@media (max-width:540px) {
+
+    header nav {
+        padding: 15px 50px;
+    }
+
+    header nav .logo {
+        font-size: 2em;
+    }
+
+    main .hero {
+        padding: 15px 50px;
+    }
+
+    main .hero .hero-content {
+        width: 100%;
+    }
+
+    main .hero .hero-content h1 {
+        font-size: 2.3em;
+        padding-bottom: 20px;
+    }
+
+    main #services {
+        padding: 15px 40px;
+    }
+
+    main #services h2 {
+        font-size: 2em;
+    }
+
+    main #services .services_container {
+        flex-direction: column;
+    }
+
+    main #services .services_container .box {
+        width: 60%;
+        padding: 40px 25px;
+    }
+
+    main #project {
+        padding: 100px 40px;
+    }
+
+    main #project h2 {
+        font-size: 2em;
+    }
+
+    main #project .pro_demo .pro-img {
+        width: 80%;
+    }
+
+    main #pricing h2 {
+        font-size: 2em;
+    }
+
+    main #pricing {
+        padding: 15px 50px;
+    }
+
+    main #pricing .price_container {
+        flex-direction: column;
+    }
+
+    main #pricing .price_container .price {
+        width: 70%;
+    }
+
+    footer #contact h5 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width:414px) {
+    header nav {
+        padding: 10px 30px;
+    }
+
+    header nav .logo {
+        font-size: 1.3em;
+    }
+
+    main .hero {
+        padding: 10px 30px;
+    }
+
+    main .hero .hero-content h5 {
+        font-size: 1.1em;
+    }
+
+    main .hero .hero-content h1 {
+        font-size: 1.7em;
+    }
+
+    main .hero .hero-content p {
+        font-size: .9em;
+    }
+
+    main .hero .hero-content .hero-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    main .hero .hero-content .hero-btn .le_more {
+        margin-right: 10px;
+        padding: 10px 20px;
+    }
+
+    main #services {
+        padding: 10px 30px;
+    }
+
+    main #services .services_container {
+        margin-top: 50px;
+    }
+
+    main #services .services_container .box {
+        width: 100%;
+    }
+
+    main #project {
+        padding: 100px 30px;
+    }
+
+    main #project .pro_demo {
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    main #pricing {
+        padding: 10px 30px;
+    }
+
+    main #pricing h2 {
+        font-size: 1.9em;
+    }
+
+    main #pricing .price_container .price {
+        width: 100%;
+    }
+
+    main #pricing h5 {
+        font-size: 1.3em;
+    }
+
+    main #pricing .price_container .price h3 {
+        font-size: 1.8em;
+    }
+
+    main #pricing .price_container .price button {
+        padding: 10px 25px;
+    }
+
+    footer .copyright {
+        padding: 10px 30px;
+    }
+
+    footer #contact {
+        padding: 10px 30px;
+    }
+
+    footer #contact span {
+        font-size: 0.8em;
+    }
+
+    footer .copyright span {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width:300px) {
+
+    header nav {
+        padding: 10px 20px;
+    }
+
+    main .hero {
+        padding: 10px 20px;
+    }
+
+    main .hero {
+        padding: 10px 20px;
+    }
+
+    main .hero .hero-content h5 {
+        font-size: 1em;
+    }
+
+    main .hero .hero-content h1 {
+        font-size: 1.4em;
+    }
+
+    main .hero .hero-content p {
+        font-size: .8em;
+    }
+
+    main #services h2 {
+        font-size: 1.8em;
+    }
+
+    main #services .services_container .box h5 {
+        font-size: 1.3em;
+    }
+
+    main #project h2 {
+        font-size: 1.8em;
+    }
+
+    main #pricing h2 {
+        font-size: 1.6em;
+    }
+
+    main #project {
+        padding: 80px 20px;
+    }
+
+    main #pricing {
+        padding: 10px 20px;
+    }
+
+    footer #contact {
+        padding: 10px 20px;
+    }
+
+    footer .copyright {
+        padding: 10px 20px;
+    }
+
+    footer #contact h5 {
+        font-size: 1.8em;
+    }
+
+    footer .copyright span {
+        font-size: 0.6em;
+    }
+}
